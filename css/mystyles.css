@@ -119,11 +119,6 @@ header {
     border-bottom: 1px dashed #gray;
     padding: 25px 0;
 }
-.orchid-article {
-    overflow: hidden;
-    border-bottom: 1px dashed #gray;
-    padding: 25px 0;
-}
 .project-item img {
     float: left;
     margin-right: 20px;
@@ -131,6 +126,22 @@ header {
 .project-item h3 {
     margin-top: 0;
 }
+.responsive {
+    width: 24.99999%;
+}
+@media only screen and (max-width: 750px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+}
+  @media only screen and (max-width: 450px) {
+    .responsive {
+      width: 100%;
+    }
+}
+  
+  
 
 /*work experience
 -----------------------------------*/
