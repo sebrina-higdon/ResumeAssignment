@@ -126,17 +126,16 @@ header {
 .project-item h3 {
     margin-top: 0;
 }
-.responsive {
+.picture {
     width: 24.99999%;
 }
 @media only screen and (max-width: 750px) {
-    .responsive {
+    .picture {
       width: 49.99999%;
-      margin: 6px 0;
     }
 }
   @media only screen and (max-width: 450px) {
-    .responsive {
+    .picture {
       width: 100%;
     }
 }
