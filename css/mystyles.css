@@ -1,4 +1,4 @@
-/* myStyles by Sebrina Higdon, 8 Sept 2022, WEB210 */
+/* myStyles by Sebrina Higdon, 30 Sept 2022, WEB210 */
 /* Resume site for LinkedIn Learning project */
 
 /*global styles
@@ -43,6 +43,52 @@ h1, h2 {
     margin: 0 auto;
     padding: 60px 0;
 }
+.content-wrap ul li {
+    list-style: none;
+}
+
+/*nav
+-----------------------------------*/
+.nav {   
+    background-color: #52154e;
+    text-align: left;
+    list-style: none;
+}
+a:link {
+text-decoration: none;
+    display: inline-block;
+  }
+.nav ul li {
+    font: bold 16px/24px sans-serif;
+    display: inline-block;
+    position: relative;
+    padding: 12px 16px;
+    background: #52154e;
+    cursor: pointer;
+}
+.nav ul li:hover {
+    background: #555;
+    color: #fff;  
+}
+.nav ul li ul { 
+    padding: 0;  
+    position: absolute; 
+    top: 48px;  
+    left: -10000px; 
+    width: 150px;
+}
+.nav ul li ul li {   
+    background: #555;    
+    display: block; 
+    color: #fff;   
+}
+.nav ul li ul li:hover { 
+    background: #666; 
+}
+.nav ul li:hover ul { 
+    display: block; 
+    left: 0px; 
+}
 
 /*profile
 -----------------------------------*/
@@ -50,6 +96,7 @@ header {
    background-color: #111344;
    color: white;
 }
+
 /*projects
 -----------------------------------*/
 .projects {
@@ -85,6 +132,12 @@ header {
 .work-experience {
     background-color: #f9cff2;
 }
+.work-experience a {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
 /*education
 -----------------------------------*/
 
@@ -93,4 +146,8 @@ header {
 footer {
     background-color: #52154e;
     color: white;
+    padding: 60px 0;
 }
+footer a:link {
+    text-decoration: none;
+  }
